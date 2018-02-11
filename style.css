@@ -1,0 +1,256 @@
+/* font-family: 'Oswald', sans-serif; */
+html,body{
+	background: url(https://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg);
+	box-sizing: border-box;
+	height:100%;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.wrapper{
+	width:470px;
+	height: 470px;
+	background: white;
+	opacity: 0.85;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+}
+
+.login{
+	display:block;
+}
+
+
+.header h1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	margin-top:10px;
+}
+
+.social-login{
+    margin-left: -20px;
+}
+
+
+.social-login p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;
+    margin-left: 52px;
+    margin-bottom: 9px;
+}
+
+.social-buttons{
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+}
+
+.social-buttons button{
+    padding: 8px 8px 7px 35px;
+
+}
+
+.social-facebook{
+	margin-top:0px;
+	background-color: #4267b2;
+	color:white; 
+	border:none;
+	border-radius: 5px;
+	cursor:pointer;
+	position: relative;
+	
+}
+
+.social-twitter{
+	justify-content: space-between;
+	background-color: #1da1f2;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	cursor:pointer;
+	position: relative;
+}
+
+.social-twitter:hover{
+	background-color:#006dbf;
+}
+
+.social-facebook:hover{
+	background-color: #29487d;
+}
+
+.social-twitter:before{
+	content: " ";
+	background:url(img/twitter.png);
+	position: absolute;
+	height:22px;
+	width:24px;
+    left: 9px;
+    top: 5px;
+}
+
+.social-facebook:before{
+	content: " ";
+	background:url(img/facebook.png);
+	height:23px;
+	width:11px;
+	position: absolute;
+	left: 15px;
+    top: 4px;
+}
+
+.login-form{
+	margin-left:30px;
+	margin-top: 15px;
+}
+label{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;
+}
+.login-form ul{
+	list-style-type: none;
+	margin-top: 9px;
+	padding: 0px;
+	width:95%;
+}
+
+.input-li{
+	margin:5px;
+	border-radius: 20px;
+	background-color: white;
+
+}
+
+.login-form input{
+	background-color: #b5d0ff;
+	border:none;
+	padding: 10px;
+    font-size: 1em;
+    font-family: sans-serif;
+    outline:none;
+    width:95%;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.login-form li{
+	display:flex;
+	margin:15px 0;
+	align-content: center;
+	justify-content: space-between;
+}
+
+input[type=checkbox]{
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #fcfff4;
+	top: 3px;
+    position: relative;
+    border-radius: 5px;
+    cursor:pointer;
+ }
+
+ .login-btn, .register-btn{
+ 	cursor:pointer;
+ 	border:none;
+ 	font-family: 'Oswald', sans-serif;
+ 	font-size:1em;
+ 	padding:5px 15px;
+ 	color:white;
+ 	background: #1da1f2;
+ 	border-radius: 5px;
+ 	letter-spacing: 1px;
+ }
+
+ .login-li{
+    margin:0px;
+} 
+
+ .login-li label{
+ 	font-weight: normal;
+ 	cursor:auto;
+ 	font-size: 1.1em;
+ }
+  .login-li a, .registration-li a{
+ 	text-decoration: none;
+ 	 font-family: 'Oswald', sans-serif;
+ 	 color:black;
+ 	 cursor: pointer;
+ 	 letter-spacing: 0.7px;
+ 	 font-size: 1em;
+ 	 font-weight: bold;
+ 	 opacity: 0.85;
+ }
+ .login-li a:hover, .registration-li a:hover{
+ 	color:#2a292d;
+ }
+
+.error{
+	border:2px solid red;
+	border-radius: 5px;
+}
+
+.registration{
+	display: none;
+}
+
+.registration-header h1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	margin-top:10px;
+}
+.registration p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;
+    margin-left: 30px;
+    margin-bottom: 9px;
+    letter-spacing: 0.2px;
+}
+.registration-form{
+	margin-left:30px;
+	margin-top:;
+}
+.registration-form ul{
+	list-style-type: none;
+	margin-top: 9px;
+	padding: 0px;
+	width:95%;
+}
+
+.input-li{
+	margin:5px;
+	border-radius: 20px;
+	background-color: white;
+
+}
+
+.registration-form input{
+	background-color: #b5d0ff;
+	border:none;
+	padding: 10px;
+    font-size: 1em;
+    font-family: sans-serif;
+    outline:none;
+    width:95%;
+    height: 22px;
+    border-radius: 5px
+}
+
+.registration-form li{
+	display:flex;
+	margin:15px 0;
+	align-content: center;
+	justify-content: space-between;
+}
+.registration-li{
+	margin-left: 20px;
+}
+

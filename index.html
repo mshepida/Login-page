@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+      <title>Log In</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="login">
+            <div class="header">
+               <h1>Log In</h1>
+            </div>
+            <div class="social-login">
+               <p>Log In with a social network:</p>
+               <div class="social-buttons">
+                  <button class="social-facebook">Login with <b>Facebook</b></button>
+                  <button class="social-twitter">Connect with <b>Twitter</b></button>
+               </div>
+            </div>
+            <form class="login-form">
+               <label> Log in with registered details:</label>
+               <ul>
+                  <li class="input-li" >
+                     <input type="text" placeholder="Username" id="username">
+                  </li>
+                  <li class="input-li" >
+                     <input type="password" placeholder="Password" id="password">
+                  </li>
+                  <li>
+                     <label class="checkbox">
+                     <input type="checkbox">
+                     Keep me sign in
+                     </label>
+                     <button class="login-btn" onclick="return formValidate()">Log in</button>
+                  </li>
+                  <li class="login-li" style="margin-top: 25px;">
+                     <a href="#">Forgot your password</a>
+                     <label>Don't have an account? <a href="#" onclick="showRegisterForm()">Register now</a></label>
+                  </li>
+               </ul>
+            </form>
+         </div>
+         <div class="registration">
+            <div class="registration-header">
+         	  <h1>Registration</h1>
+            </div>
+            <p>Enter your registration information</p>
+            <form class="registration-form">
+               <ul>
+                  <li class="input-li">
+                     <input type="text" placeholder="Username">
+                  </li>
+                  <li class="input-li">
+                     <input type="text" placeholder="Email">
+                  </li>
+                  <li class="input-li">
+                     <input type="password" placeholder="Password">
+                  </li>
+                  <li class="input-li">
+                     <input type="password" placeholder="Confirm password">
+                  </li>
+                  <li>
+                     <button class="register-btn">Registration</button>
+                  </li>
+                  <li class="registration-li" style="margin-left: 204px;">
+                     <label>Already have an account? <a href="#" onclick="showLoginForm()">Log In</a></label>
+                  </li>
+               </ul>
+            </form>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
