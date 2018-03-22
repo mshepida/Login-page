@@ -227,10 +227,19 @@ input[type=checkbox]{
 
 .input-li{
 	margin:5px;
-	border-radius: 20px;
+	border-radius: 5px;
 	background-color: white;
 
 }
+    
+    
+.input-li:invalid {
+	margin:5px;
+	border-radius: 5px;
+	background-color: white;
+
+}
+
 
 .registration-form input{
 	background-color: #b5d0ff;
